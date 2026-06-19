@@ -1,5 +1,5 @@
 "use client"
-import { etap2 } from "../pytania";
+import { etapII } from "../pytania";
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 
@@ -19,7 +19,7 @@ function Etap2() {
         },[])
 
     const drawQuestion = () => {
-        setLosowaLiczba(Math.floor(Math.random() * etap2.length));
+        setLosowaLiczba(Math.floor(Math.random() * etapII.length));
     }
     const handleGood = () => {
         audioGood.current?.play();
@@ -38,9 +38,9 @@ function Etap2() {
             {losowaLiczba !== null ? (
                 <>
                 <div className="flex flex-col w-[95%] sm:w-auto max-w-4xl justify-center items-center bg-black/80 p-6 sm:p-8 border border-black rounded-lg mt-12 text-center">
-                    <p className="text-xl font-medium mb-6 text-blue-400">{etap2[losowaLiczba].kategoria}</p>
-                    <h1 className="text-xl sm:text-3xl font-bold text-center mb-6">{etap2[losowaLiczba].pytanie}</h1>
-                    <p className="text-lg text-yellow-300">Odpowiedź: {etap2[losowaLiczba].odpowiedź}</p>
+                    <p className="text-xl font-medium mb-6 text-blue-400">{etapII[losowaLiczba].kategoria}</p>
+                    <h1 className="text-xl sm:text-3xl font-bold text-center mb-6">{etapII[losowaLiczba].pytanie}</h1>
+                    <p className="text-lg text-yellow-300">Odpowiedź: {etapII[losowaLiczba].odpowiedź}</p>
                 </div>
                 <div className="flex justify-center items-center gap-4 mt-6">
                         <button onClick={handleGood} className="bg-green-600 text-lg font-bold py-2 px-6 rounded-lg flex items-center justify-center cursor-pointer duration-300 hover:bg-green-700">Dobrze</button>

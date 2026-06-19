@@ -1,16 +1,25 @@
 "use client"
 import { final } from "../pytania";
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 
 
 function Etap2() {
-    const audioGood = useRef(new Audio("/dobrze.mp3"));
-    const audioBad = useRef(new Audio("/zle.mp3"));
+    const audioGood = useRef<HTMLAudioElement | null>(null);
+    const audioBad = useRef<HTMLAudioElement | null>(null);
 
     const [losowaLiczba, setLosowaLiczba] = useState<number | null>(null);
     const [iloscPytan, setIloscPytan] = useState(40);
     const [koniec, setKoniec] = useState(false);
+
+    useEffect(()=>{
+        if(typeof window !== "undefined") {
+            audioGood.current = new Audio("/dobrze.mp3");
+            audioBad.current = new Audio("/zle.mp3");
+            audioGood.current.load();
+            audioBad.current.load();
+        }
+    },[])
 
     const drawQuestion = () => {
         if (koniec) return;
@@ -23,11 +32,11 @@ function Etap2() {
         setIloscPytan(iloscPytan - 1);
     }
     const handleGood = () => {
-        audioGood.current.play();
+        audioGood.current?.play();
     }
 
     const handleBad = () => {
-        audioBad.current.play();
+        audioBad.current?.play();
     }
 
     return (

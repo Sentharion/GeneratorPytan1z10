@@ -52,7 +52,7 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased `}
     >
-      <body className="min-h-full flex flex-col" style={{ backgroundImage: `url(${bg.src})`, backgroundRepeat: "no-repeat",
+      <body className="min-h-full flex flex-col text-white" style={{ backgroundImage: `url(${bg.src})`, backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
     backgroundSize: "cover",}}>
         {children}

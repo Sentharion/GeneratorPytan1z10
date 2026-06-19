@@ -103,7 +103,7 @@ function PanelGracza() {
             <button onClick={zglosSie} className="bg-red-600 text-lg font-bold py-2 px-6 rounded-lg flex items-center justify-center cursor-pointer duration-300 hover:bg-red-700 mt-10">
                 Zgłoś się
             </button>
-            <p className="text-2xl font-bold mt-10 bg-black/80 ">{zegar > 0 && `Czas reakcji: ${zegar} s`}</p>
+            <p className="text-2xl font-bold mt-10 bg-black/80 rounded p-2 border-2 border-black">{zegar > 0 && `Czas: ${zegar} s`}</p>
         </div>
     );
 }

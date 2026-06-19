@@ -157,7 +157,7 @@ export const etapI: Pytanie[] = [
   { pytanie: "Jeśli jutro powiem, że jutro będzie czwartek, to jaki dzień tygodnia jest dzisiaj?", kategoria: "Logika", odpowiedź: "Wtorek" }
 ];
 
-export const etap2: Pytanie[] = [
+export const etapII: Pytanie[] = [
   {pytanie: "Jak nazywa się nielegalnie przemycony list do więzienia?", kategoria: "Prawo/Slang", odpowiedź: "Gryps" },
   { pytanie: "Paź królowej to gatunek których owadów?", kategoria: "Przyroda", odpowiedź: "Motyli" },
   { pytanie: "Czy z dna Morza Północnego jest wydobywana ropa naftowa?", kategoria: "Geografia/Gospodarka", odpowiedź: "Tak" },

@@ -19,6 +19,13 @@ function Etap1() {
 
     const drawQuestion = () => {
         setLosowaLiczba(Math.floor(Math.random() * etapI.length));
+        fetch("/api/stanGry", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ etap: "Etap I", index: losowaLiczba }),
+        });
     }
 
     const handleGood = () => {

@@ -34,6 +34,7 @@ function PanelGracza() {
     useEffect(() => {
        if(typeof window !== "undefined") {
         audioZgloszenie.current = new Audio("/zgloszenie.mp3");
+        audioZgloszenie.current.load();
        }
     }, []);
         

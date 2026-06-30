@@ -1,19 +1,15 @@
-import Link from 'next/link';
+import GameMenu from "./components/GameMenu";
+import { pages } from "./config/pages";
+
 
 export default function Home() {
   return (
-    <div className='flex flex-col justify-center items-center min-h-screen w-full py-10 overflow-x-hidden' >
-      <h2 className='text-4xl sm:text-6xl font-bold mb-12 text-transform: uppercase'>
-        Jeden z Iluś
-      </h2>
-      <div className='flex flex-col sm:flex-row gap-6 sm:gap-14 justify-center items-center'>
-        <Link href="/panelProwadzacego" className='font-semibold bg-gradient-to-br from-[#ebd197] via-[#b48811] to-[#a2790d] w-48 h-48 sm:w-60 sm:h-60 border-4 border-black rounded-lg flex items-center justify-center cursor-pointer hover:scale-110 duration-300 hover:rotate-3'>
-          Panel prowadzącego
-        </Link>
-        <Link href="/panelGracza" className='font-semibold bg-gradient-to-br from-[#ebd197] via-[#b48811] to-[#a2790d] w-48 h-48 sm:w-60 sm:h-60 border-4 border-black rounded-lg flex items-center justify-center cursor-pointer hover:scale-110 duration-300 hover:rotate-3'>
-          Panel gracza
-        </Link>
-      </div>
+    <div className='flex flex-col justify-center items-center min-h-screen w-full py-10 overflow-x-hidden bg-gradient-to-br from-primary/10 to-secondary/10'>
+      <span
+        className="text-[clamp(2.8rem,8vw,5.5rem)] font-black tracking-tight leading-none text-foreground">
+        JEDEN Z <span className="text-primary">ILUŚ</span>
+      </span>
+      <GameMenu buttons={pages.home.buttons} />
     </div>
   );
 }

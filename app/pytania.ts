@@ -154,7 +154,822 @@ export const etapI: Pytanie[] = [
   { pytanie: "Kto jest autorem zarówno ballady 'Świteź', jak i ballady 'Świtezianka'?", kategoria: "Literatura", odpowiedź: "Adam Mickiewicz" },
   { pytanie: "Ktoś, o kim powiemy, że jest 'nie w ciemię bity', to człowiek sprytny czy naiwny?", kategoria: "Przysłowia", odpowiedź: "Sprytny" },
   { pytanie: "Jak nazywa się tytułowy bohater powieści Daniela Defoe, który spędził wiele lat na bezludnej wyspie?", kategoria: "Literatura", odpowiedź: "Robinson Crusoe" },
-  { pytanie: "Jeśli jutro powiem, że jutro będzie czwartek, to jaki dzień tygodnia jest dzisiaj?", kategoria: "Logika", odpowiedź: "Wtorek" }
+  { pytanie: "Jeśli jutro powiem, że jutro będzie czwartek, to jaki dzień tygodnia jest dzisiaj?", kategoria: "Logika", odpowiedź: "Wtorek" },
+  {
+    pytanie: "W którym państwie rozgrywa się akcja musicalu Evita?",
+    kategoria: "Geografia i Kultura",
+    odpowiedź: "w Argentynie"
+  },
+  {
+    pytanie: "Czy grecki matematyk, fizyk i wynalazca Archimedes żył przed czy po Chrystusie?",
+    kategoria: "Historia",
+    odpowiedź: "przed"
+  },
+  {
+    pytanie: "Jak nazywa się jednoczesny wystrzał z wielu karabinów lub armat?",
+    kategoria: "Militaria",
+    odpowiedź: "salwa"
+  },
+  {
+    pytanie: "W którym europejskim mieście znajduje się uniwersytet o nazwie Sorbona?",
+    kategoria: "Geografia i Edukacja",
+    odpowiedź: "w Paryżu"
+  },
+  {
+    pytanie: "Czy oranżeria to to samo co pomarańczarnia?",
+    kategoria: "Język polski i Botanika",
+    odpowiedź: "nie"
+  },
+  {
+    pytanie: "Wg Jana Brzechwy gdzie rośnie trzcina w której brzmi chrząszcz?",
+    kategoria: "Literatura",
+    odpowiedź: "w Szczebrzeszynie"
+  },
+  {
+    pytanie: "Zupa Bouillabaisse (bujabes) przyrządzona z wielu ryb, homarów, raków jest przysmakiem kuchni którego państwa?",
+    kategoria: "Kulinaria",
+    odpowiedź: "Francja"
+  },
+  {
+    pytanie: "Czy dziobak ma ogon?",
+    kategoria: "Przyroda",
+    odpowiedź: "tak"
+  },
+  {
+    pytanie: "Czym zajmuje się florysta?",
+    kategoria: "Zawody",
+    odpowiedź: "układa bukiety kwiatów"
+  },
+  {
+    pytanie: "Które zwierzę oplatało laskę Asklepiosa, boga sztuki lekarskiej?",
+    kategoria: "Mitologia i Medycyna",
+    odpowiedź: "wąż"
+  },
+  {
+    pytanie: "Czy neutrony mają ładunek dodatni?",
+    kategoria: "Fizyka",
+    odpowiedź: "nie, obojętny"
+  },
+  {
+    pytanie: "Kto jest twórcą listy przebojów programu trzeciego?",
+    kategoria: "Muzyka i Media",
+    odpowiedź: "Marek Niedźwiecki"
+  },
+  {
+    pytanie: "Jak nazywa się znak pieniężny wykonany z papieru?",
+    kategoria: "Ekonomia",
+    odpowiedź: "banknot"
+  },
+  {
+    pytanie: "Którego dnia obchodzony jest międzynarodowy dzień kobiet?",
+    kategoria: "Kultura",
+    odpowiedź: "8 marca"
+  },
+  {
+    pytanie: "Ile metrów ma kilometr?",
+    kategoria: "Matematyka i Geografia",
+    odpowiedź: "1000"
+  },
+  {
+    pytanie: "Dokąd poszła Karolinka w śląskiej pieśni ludowej?",
+    kategoria: "Muzyka i Folklor",
+    odpowiedź: "do Gogolina"
+  },
+  {
+    pytanie: "Włoski przysmak panacotta to rodzaj deseru, mięsa z nadzieniem czy napoju?",
+    kategoria: "Kulinaria",
+    odpowiedź: "deseru"
+  },
+  {
+    pytanie: "Kto oprócz zawodników znajduje się na ringu bokserskim?",
+    kategoria: "Sport",
+    odpowiedź: "sędzia"
+  },
+  {
+    pytanie: "Czy dorsze żyją w morzu Bałtyckim?",
+    kategoria: "Przyroda",
+    odpowiedź: "tak"
+  },
+  {
+    pytanie: "Jaki jest język urzędowy w Islandii?",
+    kategoria: "Geografia i Język",
+    odpowiedź: "islandzki"
+  },
+  {
+    pytanie: "Jak nazywa się główny kościół diecezji przy którym mieści się siedziba biskupa?",
+    kategoria: "Religia i Architektura",
+    odpowiedź: "katedra"
+  },
+  {
+    pytanie: "Czy cyrkonie to kamienie szlachetne?",
+    kategoria: "Geologia",
+    odpowiedź: "nie, to syntetyczne kryształy"
+  },
+  {
+    pytanie: "Proszę rozwinąć skrót urzędu powstałego w 1918 roku GUS?",
+    kategoria: "Polska",
+    odpowiedź: "Główny Urząd Statystyczny"
+  },
+  {
+    pytanie: "Jak miał na imię roztargniony pan szukający swoich okularów w wierszu Juliana Tuwima?",
+    kategoria: "Literatura",
+    odpowiedź: "Hilary"
+  },
+  {
+    pytanie: "Który polski bramkarz zatrzymał Anglię?",
+    kategoria: "Sport",
+    odpowiedź: "Jan Tomaszewski"
+  },
+  {
+    pytanie: "Który polski król pokonał Turków pod Wiedniem?",
+    kategoria: "Historia Polski",
+    odpowiedź: "Jan III Sobieski"
+  },
+  {
+    pytanie: "Jak z francuskiego nazywa się nadwozie samochodu?",
+    kategoria: "Motoryzacja i Język",
+    odpowiedź: "karoseria"
+  },
+  {
+    pytanie: "Czy Winicjusz został chrześcijaninem?",
+    kategoria: "Literatura",
+    odpowiedź: "tak"
+  },
+  {
+    pytanie: "Jaki symbol chemiczny ma ołów?",
+    kategoria: "Chemia",
+    odpowiedź: "Pb"
+  },
+  {
+    pytanie: "Czy Szczecin leży bezpośrednio nad morzem?",
+    kategoria: "Geografia Polski",
+    odpowiedź: "nie"
+  },
+  {
+    pytanie: "Mahatma to tytuł nadawany wybitnym przywódcom duchowym nadawany w którym państwie?",
+    kategoria: "Kultura i Religia",
+    odpowiedź: "w Indiach"
+  },
+  {
+    pytanie: "Brukselka to odmiana kapusty czy dyni?",
+    kategoria: "Botanika i Kulinaria",
+    odpowiedź: "kapusty"
+  },
+  {
+    pytanie: "Kto założył zgromadzenie sióstr misjonarek miłości?",
+    kategoria: "Religia i Historia",
+    odpowiedź: "Matka Teresa z Kalkuty"
+  },
+  {
+    pytanie: "Nad czym sprawował władzę bóg Eol?",
+    kategoria: "Mitologia",
+    odpowiedź: "nad wiatrami"
+  },
+  {
+    pytanie: "Jak nazywa się bierna, niekurczliwa część mięśnia przytwierdzająca go do kości?",
+    kategoria: "Anatomia",
+    odpowiedź: "ścięgno"
+  },
+  {
+    pytanie: "Z kuchni którego państwa wywodzi się sushi?",
+    kategoria: "Kulinaria",
+    odpowiedź: "Japonii"
+  },
+  {
+    pytanie: "Jak nazywa się w piosenkach powtarzający się po każdej zwrotce fragment tekstu i melodii?",
+    kategoria: "Muzyka",
+    odpowiedź: "refren"
+  },
+  {
+    pytanie: "Podczas którego powstania oddział kosynierów wspomógł regularną armię?",
+    kategoria: "Historia Polski",
+    odpowiedź: "kościuszkowskiego"
+  },
+  {
+    pytanie: "Co po polsku znaczy łaciński zwrot mea culpa?",
+    kategoria: "Język i Sentencje",
+    odpowiedź: "moja wina"
+  },
+  {
+    pytanie: "Czy Dawid i Goliat byli braćmi?",
+    kategoria: "Religia i Mitologia",
+    odpowiedź: "nie"
+  },
+  {
+    pytanie: "Kto wynalazł perpetuum mobile?",
+    kategoria: "Nauka",
+    odpowiedź: "nikt"
+  },
+  {
+    pytanie: "Osobę zachowującą się nietaktownie, niezgrabnie porównuje się do zwierzęcia, którego?",
+    kategoria: "Język polski",
+    odpowiedź: "słoń w składzie porcelany"
+  },
+  {
+    pytanie: "Którą dyscyplinę sportu uprawiają Witalij i Władymir Kliczko?",
+    kategoria: "Sport",
+    odpowiedź: "boks"
+  },
+  {
+    pytanie: "Czy żarna to dawne urządzenia do mielenia ziarna czy pojemnik na żar z paleniska?",
+    kategoria: "Historia i Technika",
+    odpowiedź: "urządzenie do mielenia ziarna"
+  },
+  {
+    pytanie: "Rozszyfruj skrót GOPR?",
+    kategoria: "Polska",
+    odpowiedź: "Górskie Ochotnicze Pogotowie Ratunkowe"
+  },
+  {
+    pytanie: "Ile wokalistek wchodziło w skład zespołu ABBA?",
+    kategoria: "Muzyka",
+    odpowiedź: "dwie"
+  },
+  {
+    pytanie: "Czy puchacz to sowa?",
+    kategoria: "Przyroda",
+    odpowiedź: "tak"
+  },
+  {
+    pytanie: "Jakie nazwisko nosił tytułowy bohater poematu A. Mickiewicza?",
+    kategoria: "Literatura",
+    odpowiedź: "Tadeusz"
+  },
+  {
+    pytanie: "Prowansja jest krainą historyczną w płd czy płn Francji?",
+    kategoria: "Geografia",
+    odpowiedź: "południowej"
+  },
+  {
+    pytanie: "Jakiego koloru są kwiaty przebiśniegu?",
+    kategoria: "Przyroda",
+    odpowiedź: "białe"
+  },
+  {
+    pytanie: "Kto jest autorem powieści Dzieci kapitana Granta?",
+    kategoria: "Literatura",
+    odpowiedź: "Juliusz Verne"
+  },
+  {
+    pytanie: "Jak nazywa się tradycyjny strój górali szkockich, krótka spódniczka w kratę?",
+    kategoria: "Kultura i Moda",
+    odpowiedź: "kilt"
+  },
+  {
+    pytanie: "Ar to jednostka powierzchni czy długości?",
+    kategoria: "Matematyka",
+    odpowiedź: "powierzchni"
+  },
+  {
+    pytanie: "Tę samą nazwę noszą pocisk miotany ręką, kamień półszlachetny i owoc południowy?",
+    kategoria: "Język polski",
+    odpowiedź: "granat"
+  },
+  {
+    pytanie: "W którym państwie leży kraina geograficzna zwana Transsylwanią?",
+    kategoria: "Geografia",
+    odpowiedź: "w Rumunii"
+  },
+  {
+    pytanie: "Ciało ludzkie przewodzi elektryczność czy jest izolatorem?",
+    kategoria: "Fizyka i Anatomia",
+    odpowiedź: "przewodzi"
+  },
+  {
+    pytanie: "Kogo muzułmanie określają mianem giaurów?",
+    kategoria: "Religia",
+    odpowiedź: "chrześcijan"
+  },
+  {
+    pytanie: "Rotunda to budowla na planie koła czy krzyża?",
+    kategoria: "Architektura",
+    odpowiedź: "koła"
+  },
+  {
+    pytanie: "Który kowalski wyrób przynosi szczęście?",
+    kategoria: "Tradycja i Folklor",
+    odpowiedź: "podkowa"
+  },
+  {
+    pytanie: "Od imienia której postaci historycznej wywodzi się tytuł władcy cesarz?",
+    kategoria: "Historia",
+    odpowiedź: "Juliusza Cezara"
+  },
+  {
+    pytanie: "Jakiego koloru są kwiaty żonkili?",
+    kategoria: "Przyroda",
+    odpowiedź: "żółte"
+  },
+  {
+    pytanie: "Szczypiorniści grają w piłkę nożną czy ręczną?",
+    kategoria: "Sport",
+    odpowiedź: "ręczną"
+  },
+  {
+    pytanie: "Która bogini została zrodzona z morskiej piany?",
+    kategoria: "Mitologia",
+    odpowiedź: "Afrodyta"
+  },
+  {
+    pytanie: "Jak brzmi stopień wyższy przysłówka dobrze?",
+    kategoria: "Język polski",
+    odpowiedź: "lepiej"
+  },
+  {
+    pytanie: "Czy do otrzymania prawa jazdy potrzebne jest zaświadczenie lekarskie?",
+    kategoria: "Prawo i Motoryzacja",
+    odpowiedź: "tak"
+  },
+  {
+    pytanie: "Bohaterem której powieści Żeromskiego jest Cezary Baryka?",
+    kategoria: "Literatura",
+    odpowiedź: "Przedwiośnie"
+  },
+  {
+    pytanie: "Litera H to w międzynarodowym ruchu samochodowym skrót którego państwa?",
+    kategoria: "Geografia i Motoryzacja",
+    odpowiedź: "Węgry"
+  },
+  {
+    pytanie: "Kto zagrał rolę kobiety pracującej w serialu Czterdziestolatek?",
+    kategoria: "Film i Telewizja",
+    odpowiedź: "Irena Kwiatkowska"
+  },
+  {
+    pytanie: "Ilu solistów występuje podczas recitalu?",
+    kategoria: "Muzyka",
+    odpowiedź: "jeden"
+  },
+  {
+    pytanie: "A2, A4, A3 który z tych arkuszy papieru ma najmniejsze wymiary?",
+    kategoria: "Matematyka i Technika",
+    odpowiedź: "A4"
+  },
+  {
+    pytanie: "Czy w Polsce żyją kormorany?",
+    kategoria: "Przyroda",
+    odpowiedź: "tak"
+  },
+  {
+    pytanie: "Ile wynosi pierwiastek kwadratowy z 64?",
+    kategoria: "Matematyka",
+    odpowiedź: "8"
+  },
+  {
+    pytanie: "Jak z francuskiego nazywamy czasopismo poświęcone modzie?",
+    kategoria: "Język i Moda",
+    odpowiedź: "żurnal"
+  },
+  {
+    pytanie: "Czy wykrzyknik jest odmienną czy nieodmienną częścią mowy?",
+    kategoria: "Język polski",
+    odpowiedź: "nieodmienną"
+  },
+  {
+    pytanie: "Jak nazywa się roczny plan przewidywanych wydatków i przychodów państwa?",
+    kategoria: "Ekonomia",
+    odpowiedź: "budżet"
+  },
+  {
+    pytanie: "Kto napisał powieść Nad Niemnem?",
+    kategoria: "Literatura",
+    odpowiedź: "Eliza Orzeszkowa"
+  },
+  {
+    pytanie: "Jarmuż to tradycyjne danie ukraińskie, roślina czy część ubrania chasydów?",
+    kategoria: "Botanika i Kulinaria",
+    odpowiedź: "roślina"
+  },
+  {
+    pytanie: "Z kim tańcował nitka w bajce Jana Brzechwy?",
+    kategoria: "Literatura dziecięca",
+    odpowiedź: "z igłą"
+  },
+  {
+    pytanie: "Gallicyzmy to zapożyczenie z którego języka?",
+    kategoria: "Język",
+    odpowiedź: "z francuskiego"
+  },
+  {
+    pytanie: "Kto śpiewa piosenkę Eurydyki tańczące?",
+    kategoria: "Muzyka",
+    odpowiedź: "Anna German"
+  },
+  {
+    pytanie: "Powiedzenia i przysłowia - co kole w oczy?",
+    kategoria: "Język polski",
+    odpowiedź: "prawda"
+  },
+  {
+    pytanie: "Jak miał na imie szwajcarski bohater Tell?",
+    kategoria: "Historia i Legendy",
+    odpowiedź: "Wilhelm"
+  },
+  {
+    pytanie: "Wymień trzy główne gatunki literackie?",
+    kategoria: "Literatura",
+    odpowiedź: "Liryka, epika, dramat"
+  },
+  {
+    pytanie: "Co jest dłuższe mila morska czy kilometr?",
+    kategoria: "Geografia i Żeglarstwo",
+    odpowiedź: "mila morska"
+  },
+  {
+    pytanie: "Jak nazywa się wydział na uczelni wyższej obejmujący studia z języka i literatury Albionu?",
+    kategoria: "Edukacja i Język",
+    odpowiedź: "filologia angielska"
+  },
+  {
+    pytanie: "Czy w Australii odbyły się letnie igrzyska olimpijskie?",
+    kategoria: "Sport",
+    odpowiedź: "tak"
+  },
+  {
+    pytanie: "W którym polskim mieście znajduje się piernikowa aleja gwiazd?",
+    kategoria: "Geografia Polski",
+    odpowiedź: "w Toruniu"
+  },
+  {
+    pytanie: "Jak nazywają się pierwsza i ostatnia litera alfabetu greckiego?",
+    kategoria: "Język",
+    odpowiedź: "alfa i omega"
+  },
+  {
+    pytanie: "Jak nazywa się stolica Rumunii?",
+    kategoria: "Geografia",
+    odpowiedź: "Bukareszt"
+  },
+  {
+    pytanie: "Kto był twórcą postaci Myszki Miki i psa Pluto?",
+    kategoria: "Film i Animacja",
+    odpowiedź: "Walt Disney"
+  },
+  {
+    pytanie: "Czy osoba wyrażająca się kolokwialnie używa języka literackiego czy potocznego?",
+    kategoria: "Język polski",
+    odpowiedź: "potocznego"
+  },
+  {
+    pytanie: "Jakiego koloru jest najpospolitsza w Polsce biedronka?",
+    kategoria: "Przyroda",
+    odpowiedź: "czerwonego"
+  },
+  {
+    pytanie: "Kogo nie należy wywoływac z lasu?",
+    kategoria: "Język polski",
+    odpowiedź: "Wilka"
+  },
+  {
+    pytanie: "Sejsmologia to nauka o…?",
+    kategoria: "Geologia",
+    odpowiedź: "Trzęsieniach ziemi"
+  },
+  {
+    pytanie: "Kto zagrał tytułową rolę w komedii Kiler?",
+    kategoria: "Film",
+    odpowiedź: "Cezary Pazura"
+  },
+  {
+    pytanie: "Pedant to człowiek przesadnie dokładny w działaniu czy nadmiernie oszczędny w wydatkach?",
+    kategoria: "Psychologia",
+    odpowiedź: "przesadnie dokładny"
+  },
+  {
+    pytanie: "Nad którym oceanem leży Chile?",
+    kategoria: "Geografia",
+    odpowiedź: "Spokojnym"
+  },
+  {
+    pytanie: "Czy PCK jest organizacją rządową?",
+    kategoria: "Polska i Organizacje",
+    odpowiedź: "Nie"
+  },
+  {
+    pytanie: "W którym języku Wergiliusz napisał Eneidę?",
+    kategoria: "Literatura",
+    odpowiedź: "łacinie"
+  },
+  {
+    pytanie: "Jak nazywa się karczma z ballady A. Mickiewicza Pani Twardowska?",
+    kategoria: "Literatura",
+    odpowiedź: "Rzym"
+  },
+  {
+    pytanie: "Czy w skład włoskiej potrawy risotto wchodzi makaron?",
+    kategoria: "Kulinaria",
+    odpowiedź: "NIE"
+  },
+  {
+    pytanie: "O kim mówimy, że wstrzymał słońce, ruszył Ziemię?",
+    kategoria: "Historia i Nauka",
+    odpowiedź: "O Koperniku"
+  },
+  {
+    pytanie: "Muł to krzyżówka których zwierząt?",
+    kategoria: "Przyroda",
+    odpowiedź: "konia i osła"
+  },
+  {
+    pytanie: "Czy prezydent w Polsce wybierany jest przez parlament?",
+    kategoria: "Prawo i Polityka",
+    odpowiedź: "nie"
+  },
+  {
+    pytanie: "Jak nazywał się sztywny kapelusz męski o zaokrąglonej główce i wąskim lekko uniesionym rondelku, modny w drugiej połowie XIX wieku?",
+    kategoria: "Moda i Historia",
+    odpowiedź: "melonik"
+  },
+  {
+    pytanie: "W którym włoskim mieście znajduje się tzw. krzywa wieża, dzwonnica miejscowej katedry?",
+    kategoria: "Geografia i Architektura",
+    odpowiedź: "Piza"
+  },
+  {
+    pytanie: "Czy opornik i rezystor to to samo?",
+    kategoria: "Fizyka i Elektronika",
+    odpowiedź: "Tak"
+  },
+  {
+    pytanie: "Czy w Polsce działa Amnesty International?",
+    kategoria: "Organizacje",
+    odpowiedź: "Tak"
+  },
+  {
+    pytanie: "Nad którym oceanem leży stan Kalifornia?",
+    kategoria: "Geografia",
+    odpowiedź: "Spokojnym"
+  },
+  {
+    pytanie: "Jak nazywała się legendarna kraina złota w Ameryce Płd poszukiwana przez hiszpańskich konkwistadorów?",
+    kategoria: "Historia i Legendy",
+    odpowiedź: "Eldorado"
+  },
+  {
+    pytanie: "Z wejściem których dwóch składników przygotowywana jest maca?",
+    kategoria: "Kulinaria",
+    odpowiedź: "mąka i woda"
+  },
+  {
+    pytanie: "Na którym kontynencie lezy Sudan?",
+    kategoria: "Geografia",
+    odpowiedź: "w Afryce"
+  },
+  {
+    pytanie: "Jaką nazwę nosi ogół drobnych organizmów wodnych unoszących się biernie w toni oceanów i mórz?",
+    kategoria: "Biologia i Przyroda",
+    odpowiedź: "plankton"
+  },
+  {
+    pytanie: "W których jednostkach mierzy się prędkość w żegludze?",
+    kategoria: "Żeglarstwo",
+    odpowiedź: "węzły"
+  },
+  {
+    pytanie: "Z którego państwa pochodzi kebab?",
+    kategoria: "Kulinaria",
+    odpowiedź: "z Turcji"
+  },
+  {
+    pytanie: "Jakim mianem określa się 12 wybranych uczniów Jezusa?",
+    kategoria: "Religia",
+    odpowiedź: "apostołowie"
+  },
+  {
+    pytanie: "Która część ciała była słabym punktem Achillesa?",
+    kategoria: "Mitologia",
+    odpowiedź: "pięta"
+  },
+  {
+    pytanie: "Przez ile miesięcy w roku obowiązuje w Polsce czas zimowy?",
+    kategoria: "Polska",
+    odpowiedź: "5"
+  },
+  {
+    pytanie: "Jak nazywa się ręczne narzędzie do ścinania trawy i zboża?",
+    kategoria: "Narzędzia",
+    odpowiedź: "kosa"
+  },
+  {
+    pytanie: "Kto spotkał siedmiu krasnoludków- królewna Śnieżka czy Śpiąca królewna?",
+    kategoria: "Literatura dziecięca",
+    odpowiedź: "Królewna Śnieżka"
+  },
+  {
+    pytanie: "Jak nazywamy człowieka znajdującego przyjemność w zadawaniu bólu fizycznego?",
+    kategoria: "Psychologia",
+    odpowiedź: "sadysta"
+  },
+  {
+    pytanie: "Który ocean ma większą powierzchnię: Indyjski czy Atlantycki?",
+    kategoria: "Geografia",
+    odpowiedź: "Atlantycki"
+  },
+  {
+    pytanie: "Kto jest autorem ballady Świteź a kto Świtezianka?",
+    kategoria: "Literatura",
+    odpowiedź: "Adam Mickiewicz"
+  },
+  {
+    pytanie: "Synogarlice to odmiana gołębi czy sikorek?",
+    kategoria: "Przyroda",
+    odpowiedź: "gołębi"
+  },
+  {
+    pytanie: "Jakie kolory widnieją na fladze Arabii Saudyjskiej?",
+    kategoria: "Geografia",
+    odpowiedź: "biały i zielony"
+  },
+  {
+    pytanie: "Jak nazywa się czynność usuwania pni po ściętych drzewach?",
+    kategoria: "Leśnictwo",
+    odpowiedź: "karczowanie"
+  },
+  {
+    pytanie: "W jakim państwie powstał typ widowiska scenicznego commedia dell'arte?",
+    kategoria: "Teatr i Kultura",
+    odpowiedź: "we Włoszech"
+  },
+  {
+    pytanie: "Ktoś 'nie w ciemię bity' to ktoś sprytny czy naiwny?",
+    kategoria: "Język polski",
+    odpowiedź: "sprytny"
+  },
+  {
+    pytanie: "Jak nazywa się tytułowy bohater powieści Daniela Defoe, który spędza wiele lat samotnie na bezludnej wyspie?",
+    kategoria: "Literatura",
+    odpowiedź: "Robinson Crusoe"
+  },
+  {
+    pytanie: "Czy Mozart żył w czasach cesarzowej Austrii Marii Teresy?",
+    kategoria: "Historia i Muzyka",
+    odpowiedź: "Tak"
+  },
+  {
+    pytanie: "Jeśli jutro powiem, że jutro będzie czwartek, to który dzień tygodnia jest dzisiaj?",
+    kategoria: "Logika",
+    odpowiedź: "wtorek"
+  },
+  {
+    pytanie: "Jaki jest symbol chemiczny krzemu?",
+    kategoria: "Chemia",
+    odpowiedź: "Si"
+  },
+  {
+    pytanie: "Jak nazywa się miasto, które wg legendy mieli założyć Wars i Sawa?",
+    kategoria: "Tradycja i Legendy",
+    odpowiedź: "Warszawa"
+  },
+  {
+    pytanie: "Jaką nazwę noszą kluski w kształcie rombu, wykonane z jajek, mąki i ziemniaków?",
+    kategoria: "Kulinaria",
+    odpowiedź: "kopytka"
+  },
+  {
+    pytanie: "Jak nazywa się tytułowy porucznik policji grany przez Telly'ego Savalasa?",
+    kategoria: "Film i Telewizja",
+    odpowiedź: "Kojak"
+  },
+  {
+    pytanie: "Czy w Polsce występują gronostaje?",
+    kategoria: "Przyroda",
+    odpowiedź: "Tak"
+  },
+  {
+    pytanie: "Jak nazywa się drzewo z rodziny sosnowatych, które zrzuca igły na zimę?",
+    kategoria: "Botanika",
+    odpowiedź: "modrzew"
+  },
+  {
+    pytanie: "Gdzie wg powiedzenia nie należy rzucać słów?",
+    kategoria: "Język polski",
+    odpowiedź: "na wiatr"
+  },
+  {
+    pytanie: "Mozart przed śmiercią pracował nad operą, requiem, czy mazurkiem?",
+    kategoria: "Muzyka",
+    odpowiedź: "requiem"
+  },
+  {
+    pytanie: "NHL to zawodowa liga hokeja czy koszykówki?",
+    kategoria: "Sport",
+    odpowiedź: "hokeja"
+  },
+  {
+    pytanie: "Jakim międzynarodowym skrótem oznacza się na mapach wschód?",
+    kategoria: "Geografia",
+    odpowiedź: "E"
+  },
+  {
+    pytanie: "Kto w Panu Tadeuszu grał najlepiej na cymbałach?",
+    kategoria: "Literatura",
+    odpowiedź: "Jankiel"
+  },
+  {
+    pytanie: "Jak nazywa się stolica Białorusi?",
+    kategoria: "Geografia",
+    odpowiedź: "Mińsk"
+  },
+  {
+    pytanie: "Czy ogon bobra ma łuski?",
+    kategoria: "Przyroda",
+    odpowiedź: "TAK"
+  },
+  {
+    pytanie: "Z którego surowca znana jest Zatoka Perska?",
+    kategoria: "Geografia i Ekonomia",
+    odpowiedź: "ropy naftowej"
+  },
+  {
+    pytanie: "Czy organizacja może dostać nagrodę Nobla?",
+    kategoria: "Świat",
+    odpowiedź: "TAK, ale tylko pokojową"
+  },
+  {
+    pytanie: "Jak brzmi muzułmańskie imię Boga Stworzyciela?",
+    kategoria: "Religia",
+    odpowiedź: "Allah"
+  },
+  {
+    pytanie: "Wianki, sobótka, palinocka to przedmioty i obrzędy związane z którą nocą?",
+    kategoria: "Tradycja i Folklor",
+    odpowiedź: "noc Kupały"
+  },
+  {
+    pytanie: "Jaka miłość nie rdzewieje?",
+    kategoria: "Język polski",
+    odpowiedź: "stara"
+  },
+  {
+    pytanie: "Mozilla Firefox, Opera, Internet Explorer to nazwy przeglądarek stron czy programów graficznych?",
+    kategoria: "Informatyka",
+    odpowiedź: "przeglądarek"
+  },
+  {
+    pytanie: "Kurka wodna to popularny eufemizm, czy istnieje zwierzę o takiej nazwie?",
+    kategoria: "Przyroda",
+    odpowiedź: "TAK"
+  },
+  {
+    pytanie: "Czy mózg zawiera wodę?",
+    kategoria: "Anatomia",
+    odpowiedź: "tak"
+  },
+  {
+    pytanie: "Bronowice to dzielnica którego miasta?",
+    kategoria: "Geografia Polski",
+    odpowiedź: "Kraków"
+  },
+  {
+    pytanie: "Która piosenkarka wylansowała przeboje Poker Face, Paparazzi?",
+    kategoria: "Muzyka",
+    odpowiedź: "Lady Gaga"
+  },
+  {
+    pytanie: "Czy chrabąszcze są szkodnikami?",
+    kategoria: "Przyroda / Rolnictwo",
+    odpowiedź: "TAK"
+  },
+  {
+    pytanie: "W którym państwie powstał taoizm?",
+    kategoria: "Religia i Filozofia",
+    odpowiedź: "Chiny"
+  },
+  {
+    pytanie: "Nad jaką rzeką leży stolica Rosji?",
+    kategoria: "Geografia",
+    odpowiedź: "Moskwa"
+  },
+  {
+    pytanie: "Dyzio, Hyzio i Zyzio to siostrzeńcy kaczora Donalda czy myszki Mickey?",
+    kategoria: "Kultura i Popkultura",
+    odpowiedź: "Donalda"
+  },
+  {
+    pytanie: "Który święty pomaga w znalezieniu zagubionych przedmiotów?",
+    kategoria: "Religia",
+    odpowiedź: "św. Antoni"
+  },
+  {
+    pytanie: "Coś zdobytego z wielkim wysiłkiem określamy słowami, że to 'ciężki kawałek... '?",
+    kategoria: "Język polski",
+    odpowiedź: "chleba"
+  },
+  {
+    pytanie: "Jak brzmi dopełniacz słowa kakao?",
+    kategoria: "Język polski",
+    odpowiedź: "nie odmienia się"
+  },
+  {
+    pytanie: "Jak nazywa się ptak składający najmniejsze jaja?",
+    kategoria: "Przyroda",
+    odpowiedź: "koliber"
+  },
+  {
+    pytanie: "W jakim serialu główne role Natalii i Ludwika Boskich odgrywają M. Kożuchowska i T. Karolak?",
+    kategoria: "Telewizja",
+    odpowiedź: "Rodzinka.pl"
+  }
 ];
 
 export const etapII: Pytanie[] = [
@@ -342,7 +1157,467 @@ export const etapII: Pytanie[] = [
   { pytanie: "Jakie dwa kolory widnieją na oficjalnej fladze państwowej Arabii Saudyjskiej?", kategoria: "Świat", odpowiedź: "Zielony i biały" },
   { pytanie: "Jak profesjonalnie nazywa się czynność rolnicza lub leśna polegająca na usuwaniu z ziemi pni i korzeni ściętych drzew?", kategoria: "Inne", odpowiedź: "Karczowanie" },
   { pytanie: "Szombierki to historyczna i przemysłowa dzielnica którego śląskiego miasta?", kategoria: "Geografia Polski", odpowiedź: "Bytomia" },
-  { pytanie: "Jaki jest oficjalny symbol chemiczny krzemu w układzie okresowym pierwiastków?", kategoria: "Chemia", odpowiedź: "Si" }
+  { pytanie: "Jaki jest oficjalny symbol chemiczny krzemu w układzie okresowym pierwiastków?", kategoria: "Chemia", odpowiedź: "Si" },
+  {
+    pytanie: "Jaki tytuł nosiła królowa Wiktoria jako władczyni Indii?",
+    kategoria: "Historia",
+    odpowiedź: "cesarzowa Indii"
+  },
+  {
+    pytanie: "Na którym kontynencie leży państwo Brunei?",
+    kategoria: "Geografia",
+    odpowiedź: "Azja"
+  },
+  {
+    pytanie: "W którym miesiącu w Poznaniu w 1956 miał miejsce masowy protest robotników?",
+    kategoria: "Historia Polski",
+    odpowiedź: "czerwiec"
+  },
+  {
+    pytanie: "Który z angielskich uniwersytetów jest starszy Cambridge czy Oxford?",
+    kategoria: "Historia i Edukacja",
+    odpowiedź: "Oxford"
+  },
+  {
+    pytanie: "Na terenie którego państwa leżą miasta Dajpur, Rajpur i Madras?",
+    kategoria: "Geografia",
+    odpowiedź: "Indie"
+  },
+  {
+    pytanie: "Ile cm sześciennych mieści się w metrze sześciennym?",
+    kategoria: "Matematyka",
+    odpowiedź: "milion"
+  },
+  {
+    pytanie: "Jak w XII i XIII wieku nazywał się urzędnik sprawujący władzę nad zamkiem lub grodem i przyległym okręgiem?",
+    kategoria: "Historia",
+    odpowiedź: "kasztelan"
+  },
+  {
+    pytanie: "Jaki kolor ma stoliczek w dziecięcej wyliczance entliczek pętliczek?",
+    kategoria: "Literatura dziecięca",
+    odpowiedź: "czerwony"
+  },
+  {
+    pytanie: "Czy wyroki Europejskiego Trybunału Sprawiedliwości są wiążące dla sądów państw członkowskich?",
+    kategoria: "Prawo",
+    odpowiedź: "tak"
+  },
+  {
+    pytanie: "Która francuska aktorka w 1975 r zrezygnowała z kariery i założyła fundację ochrony dzikich zwierząt zagrożonych wyginięciem?",
+    kategoria: "Film i Ekologia",
+    odpowiedź: "Brigitte Bardot"
+  },
+  {
+    pytanie: "Z którego miasta pochodzi Kapela Czerniakowska?",
+    kategoria: "Muzyka",
+    odpowiedź: "z Warszawy"
+  },
+  {
+    pytanie: "Jak z łaciny nazywa się zmętnienie soczewki oka?",
+    kategoria: "Medycyna",
+    odpowiedź: "katarakta"
+  },
+  {
+    pytanie: "Która armia wyszła zwycięsko z pierwszej wojny punickiej?",
+    kategoria: "Historia",
+    odpowiedź: "Rzymska"
+  },
+  {
+    pytanie: "W którym filmie Zdzisław Maklakiewicz przedstawia się słowami: Bardzo mi przykro, inżynier Mamoń jestem?",
+    kategoria: "Film",
+    odpowiedź: "Rejs"
+  },
+  {
+    pytanie: "Jak nazywa się jadalnia dla załogi na statku?",
+    kategoria: "Żeglarstwo",
+    odpowiedź: "mesa"
+  },
+  {
+    pytanie: "Jaki ładunek elektryczny ma pozyton?",
+    kategoria: "Fizyka",
+    odpowiedź: "dodatni"
+  },
+  {
+    pytanie: "Który król był gospodarzem uczty wydanej przez Mikołaja Wierzynka?",
+    kategoria: "Historia Polski",
+    odpowiedź: "Kazimierz Wielki"
+  },
+  {
+    pytanie: "W którym holenderskim mieście można zwiedzać muzeum van Gogha i dom Rembrandta?",
+    kategoria: "Geografia i Sztuka",
+    odpowiedź: "Amsterdam"
+  },
+  {
+    pytanie: "W którym państwie najwyższym odznaczeniem wojennym jest krzyż Wiktorii?",
+    kategoria: "Historia i Militaria",
+    odpowiedź: "Wlk. Brytania"
+  },
+  {
+    pytanie: "W której części Gdańska leży katedra ze słynnymi organami zbudowanymi przez Jana Wolffa?",
+    kategoria: "Geografia Polski i Muzyka",
+    odpowiedź: "Oliwa"
+  },
+  {
+    pytanie: "W którym parku stoi dawny budynek podchorążych skąd ruszyli do powstania listopadowego?",
+    kategoria: "Historia Polski i Geografia",
+    odpowiedź: "Łazienki"
+  },
+  {
+    pytanie: "Co ma pod stopami Wenus na obrazie Botticellego pt. Narodziny Wenus?",
+    kategoria: "Sztuka",
+    odpowiedź: "muszlę"
+  },
+  {
+    pytanie: "Biblia - w jakim języku napisana jest Wulgata?",
+    kategoria: "Religia i Język",
+    odpowiedź: "łacina"
+  },
+  {
+    pytanie: "W jakim kolorze jest krzyż na grzbiecie pająka krzyżaka?",
+    kategoria: "Przyroda",
+    odpowiedź: "biały"
+  },
+  {
+    pytanie: "Jakiej narodowości był pisarz Kalimach, nauczyciel synów Kazimierza Jagiellończyka?",
+    kategoria: "Historia Polski",
+    odpowiedź: "Włochem, urodził się w Toskanii"
+  },
+  {
+    pytanie: "Planimetria zajmuje się figurami płaskimi czy przestrzennymi?",
+    kategoria: "Matematyka",
+    odpowiedź: "płaskimi, przestrzennymi zajmuje się stereometria"
+  },
+  {
+    pytanie: "Na której wyspie stał kolos przedstawiający boga słońca Heliosa zaliczany do siedmiu cudów świata?",
+    kategoria: "Historia i Mitologia",
+    odpowiedź: "Rodos"
+  },
+  {
+    pytanie: "Jak nazywa się kostka do gry w domino nie zawierającą żadnych kropek, z pustym polem?",
+    kategoria: "Gry i Rozrywka",
+    odpowiedź: "mydło"
+  },
+  {
+    pytanie: "W jakim państwie w XV wieku trwała wojna dwóch róż?",
+    kategoria: "Historia",
+    odpowiedź: "w Anglii"
+  },
+  {
+    pytanie: "Z której dynastii pochodził król który przeniósł stolicę Polski z Krakowa do Warszawy?",
+    kategoria: "Historia Polski",
+    odpowiedź: "Waza"
+  },
+  {
+    pytanie: "Jakim terminem pochodzącym z greki nazywamy epokę kamienia łupanego?",
+    kategoria: "Historia / Archeologia",
+    odpowiedź: "paleolit"
+  },
+  {
+    pytanie: "Napięcie wynosi 100 V, natężenie 2 A, ile wynosić opór?",
+    kategoria: "Fizyka",
+    odpowiedź: "50 Omów"
+  },
+  {
+    pytanie: "Jak z greki nazywa się dychawica oskrzelowa?",
+    kategoria: "Medycyna",
+    odpowiedź: "astma"
+  },
+  {
+    pytanie: "Aaron, pierwszy arcykapłan był starszym bratem którego proroka?",
+    kategoria: "Religia",
+    odpowiedź: "Mojżesza"
+  },
+  {
+    pytanie: "Co w alpinistyce oznacza korona Ziemi?",
+    kategoria: "Sport i Geografia",
+    odpowiedź: "najwyższe szczyty poszczególnych kontynentów"
+  },
+  {
+    pytanie: "Który władca w 44 p.n.e został zasztyletowany w rzymskim Senacie?",
+    kategoria: "Historia",
+    odpowiedź: "Juliusz Cezar"
+  },
+  {
+    pytanie: "Kto jest autorem obrazów: Bociany, Żurawie?",
+    kategoria: "Sztuka",
+    odpowiedź: "Józef Chełmoński"
+  },
+  {
+    pytanie: "Kto dowodził wojskami polskimi w 1673 roku w bitwie pod Chocimiem?",
+    kategoria: "Historia Polski",
+    odpowiedź: "Jan III Sobieski"
+  },
+  {
+    pytanie: "Sporady południowe to archipelag włoski czy grecki?",
+    kategoria: "Geografia",
+    odpowiedź: "grecki"
+  },
+  {
+    pytanie: "Czy żyrafa należy do przeżuwaczy?",
+    kategoria: "Przyroda",
+    odpowiedź: "TAK"
+  },
+  {
+    pytanie: "Psałterz floriański z przełomu XIV i XV wieku nazywa się psałterzem której królowej Polski?",
+    kategoria: "Historia Polski / Literatura",
+    odpowiedź: "Jadwigi"
+  },
+  {
+    pytanie: "Proszę wymienić przynajmniej jedną z czterech rzeczy ostatecznych teologii dogmatycznej?",
+    kategoria: "Religia",
+    odpowiedź: "śmierć, sąd, niebo, piekło"
+  },
+  {
+    pytanie: "W którym okresie działali w Polsce Hugo Kołłątaj, Stanisław Konarski?",
+    kategoria: "Historia Polski",
+    odpowiedź: "oświecenie"
+  },
+  {
+    pytanie: "Jak nazywa się KWK w Katowicach w której w grudniu 1981 roku zabito podczas strajku 9 górników?",
+    kategoria: "Historia Polski",
+    odpowiedź: "Wujek"
+  },
+  {
+    pytanie: "Które zwierzę jest symbolem bessy na giełdzie?",
+    kategoria: "Ekonomia",
+    odpowiedź: "niedźwiedź, byk jest znakiem hossy"
+  },
+  {
+    pytanie: "W którym państwie Henryk Dąbrowski utworzył Legiony Polskie?",
+    kategoria: "Historia Polski",
+    odpowiedź: "Włochy"
+  },
+  {
+    pytanie: "Na którym kontynencie rozciąga się pustynia Gobi?",
+    kategoria: "Geografia",
+    odpowiedź: "w Azji"
+  },
+  {
+    pytanie: "Jak nazywa się okres sprawowania funkcji przez papieża, słowo pochodzi z łaciny?",
+    kategoria: "Religia",
+    odpowiedź: "Pontyfikat"
+  },
+  {
+    pytanie: "W którym roku miała miejsce bitwa o Midway?",
+    kategoria: "Historia",
+    odpowiedź: "w 1942"
+  },
+  {
+    pytanie: "W rocznicę wyzwolenia którego obozu koncentracyjnego przypada międzynarodowy dzień pamięci o ofiarach Holocaustu?",
+    kategoria: "Historia",
+    odpowiedź: "Auschwitz"
+  },
+  {
+    pytanie: "Która artystka nagrała utwór Malinowy król z zespołem Budka Suflera?",
+    kategoria: "Muzyka",
+    odpowiedź: "Urszula"
+  },
+  {
+    pytanie: "Która aktorka grała główne role w filmach Błękitny anioł i Blond Wenus?",
+    kategoria: "Film",
+    odpowiedź: "Marlena Dietrich"
+  },
+  {
+    pytanie: "Z którego kraju pochodziła Karen Blixen autorka książki Pożegnanie z Afryką?",
+    kategoria: "Literatura",
+    odpowiedź: "z Danii"
+  },
+  {
+    pytanie: "Boska Komedia Dantego jest napisana prozą czy wierszem?",
+    kategoria: "Literatura",
+    odpowiedź: "wierszem"
+  },
+  {
+    pytanie: "Jakie imię nosi piękna cyganka, tytułowa bohaterka opery Georgesa Bizeta?",
+    kategoria: "Muzyka / Teatr",
+    odpowiedź: "Carmen"
+  },
+  {
+    pytanie: "Kto dłużej był prezydentem USA Bush junior czy senior?",
+    kategoria: "Historia",
+    odpowiedź: "junior"
+  },
+  {
+    pytanie: "Kwas mlekowy to związek organiczny czy nieorganiczny?",
+    kategoria: "Chemia",
+    odpowiedź: "organiczny"
+  },
+  {
+    pytanie: "Na którym placu w Paryżu znajduje się Łuk Triumfalny?",
+    kategoria: "Geografia",
+    odpowiedź: "Plac Charlesa de Gaulle'a"
+  },
+  {
+    pytanie: "Czy Borys Godunow, bohater utworu Aleksandra Puszkina to postać historyczna?",
+    kategoria: "Literatura / Historia",
+    odpowiedź: "tak"
+  },
+  {
+    pytanie: "W którym mieście odbyła się koronacja Stanisława Augusta Poniatowskiego?",
+    kategoria: "Historia Polski",
+    odpowiedź: "W Warszawie"
+  },
+  {
+    pytanie: "W którym wieku rozpoczęła się w Anglii tzw. rewolucja przemysłowa?",
+    kategoria: "Historia",
+    odpowiedź: "w XVIII"
+  },
+  {
+    pytanie: "Czy na obszar Polski spadły meteoryty?",
+    kategoria: "Astronomia / Geografia",
+    odpowiedź: "tak"
+  },
+  {
+    pytanie: "Reprezentacja którego kraju wygrała MŚ piłkarzy ręcznych w styczniu 2013 roku?",
+    kategoria: "Sport",
+    odpowiedź: "Hiszpania"
+  },
+  {
+    pytanie: "Jak nazywamy obraz powstały po rozszczepieniu światła białego na składowe o różnych długościach?",
+    kategoria: "Fizyka",
+    odpowiedź: "spektrum (widmo)"
+  },
+  {
+    pytanie: "Dzielnicą którego miasta są Szombierki?",
+    kategoria: "Geografia Polski",
+    odpowiedź: "Bytomia"
+  },
+  {
+    pytanie: "Jak w mitologii skandynawskiej nazywały się zbrojne dziewice, służebniczki boga Odyna, które zwiastowały wojownikom śmierć na polu bitwy?",
+    kategoria: "Mitologia",
+    odpowiedź: "Walkirie"
+  },
+  {
+    pytanie: "Ilu polskich prezydentów po 1989 roku ma nazwiska na literę K?",
+    kategoria: "Historia i Polityka Polski",
+    odpowiedź: "trzech (Kaczorowski, Kwaśniewski, Komorowski)"
+  },
+  {
+    pytanie: "Flagę którego państwa trzyma Wolność na obrazie Eugène'a Delacroix?",
+    kategoria: "Sztuka",
+    odpowiedź: "Francji"
+  },
+  {
+    pytanie: "Jaką barwę ma kamień szlachetny lazuryt?",
+    kategoria: "Geologia / Mineralogia",
+    odpowiedź: "niebieski"
+  },
+  {
+    pytanie: "Ile razy w ciągu roku monsuny zmieniają swój kierunek?",
+    kategoria: "Geografia / Meteorologia",
+    odpowiedź: "dwa razy"
+  },
+  {
+    pytanie: "Jak nazywa się trąbka łącząca jamę bębenkową z jamą nosowo-gardłową?",
+    kategoria: "Anatomia / Medycyna",
+    odpowiedź: "Trąbka Eustachiusza"
+  },
+  {
+    pytanie: "W którym państwie rozpoczęła nadawanie rozgłośnia radiowa RAI w 1924 roku?",
+    kategoria: "Historia i Media",
+    odpowiedź: "we Włoszech"
+  },
+  {
+    pytanie: "Haubica - działo o stromej trajektorii lotu pocisku, piszemy przez 'h' czy 'ch'?",
+    kategoria: "Język polski",
+    odpowiedź: "H"
+  },
+  {
+    pytanie: "Jak nazywa się pisarz, autor 'Dziennika pisanego nocą'?",
+    kategoria: "Literatura",
+    odpowiedź: "Gustaw Herling-Grudziński"
+  },
+  {
+    pytanie: "Francuski gatunek sera roquefort wytwarzany jest z mleka owczego czy krowiego?",
+    kategoria: "Kulinaria",
+    odpowiedź: "owczego"
+  },
+  {
+    pytanie: "Jaką dyscyplinę sportu uprawia Maja Włoszczowska?",
+    kategoria: "Sport",
+    odpowiedź: "kolarstwo górskie"
+  },
+  {
+    pytanie: "Czy Albania jest członkiem paktu NATO?",
+    kategoria: "Świat i Polityka",
+    odpowiedź: "tak, od 2009 roku"
+  },
+  {
+    pytanie: "Jakie pokrewieństwo łączy Marię i Jana Peszek?",
+    kategoria: "Kultura / Teatr",
+    odpowiedź: "ojciec i córka"
+  },
+  {
+    pytanie: "Jak nazywał się Sejm z 1717 roku, podczas którego nie zabrał głosu żaden poseł?",
+    kategoria: "Historia Polski",
+    odpowiedź: "Sejm Niemy"
+  },
+  {
+    pytanie: "W którym państwie znajduje się region zwany Nową Anglią?",
+    kategoria: "Geografia",
+    odpowiedź: "W USA"
+  },
+  {
+    pytanie: "Jaką nazwę nosi sztucznie otrzymany pierwiastek o symbolu Am?",
+    kategoria: "Chemia",
+    odpowiedź: "Ameryk"
+  },
+  {
+    pytanie: "W którym wieku odbył się Sobór Watykański II?",
+    kategoria: "Historia i Religia",
+    odpowiedź: "XX"
+  },
+  {
+    pytanie: "Co z łaciny znaczy zwrot 'manu propria'?",
+    kategoria: "Język i Sentencje",
+    odpowiedź: "własnoręcznie"
+  },
+  {
+    pytanie: "W którym roku miał miejsce tzw. czarny czwartek na giełdzie nowojorskiej?",
+    kategoria: "Historia i Ekonomia",
+    odpowiedź: "1929"
+  },
+  {
+    pytanie: "Tumulus to chmura czy kurhan?",
+    kategoria: "Archeologia",
+    odpowiedź: "kurhan"
+  },
+  {
+    pytanie: "W którym państwie leżą tzw. Alpy Transylwańskie, czyli Karpaty Południowe?",
+    kategoria: "Geografia",
+    odpowiedź: "w Rumunii"
+  },
+  {
+    pytanie: "Jak miał na imię marszałek Rydz-Śmigły?",
+    kategoria: "Historia Polski",
+    odpowiedź: "Edward"
+  },
+  {
+    pytanie: "Panama w momencie ogłoszenia niepodległości odłączała się od Kostaryki czy Kolumbii?",
+    kategoria: "Historia",
+    odpowiedź: "Kolumbii"
+  },
+  {
+    pytanie: "Który amerykański prezydent przeprowadził operację pod kryptonimem Pustynna Burza?",
+    kategoria: "Historia",
+    odpowiedź: "George H. W. Bush"
+  },
+  {
+    pytanie: "Kto był ojcem Heleny Trojańskiej?",
+    kategoria: "Mitologia",
+    odpowiedź: "Zeus"
+  },
+  {
+    pytanie: "Z jakiego kraju pochodził samochód określany potocznie i pogardliwie jako 'mydelniczka'?",
+    kategoria: "Motoryzacja i Historia",
+    odpowiedź: "z NRD (Trabant)"
+  },
+  {
+    pytanie: "W którym roku Otto III i Bolesław Chrobry spotkali się na zjeździe gnieźnieńskim?",
+    kategoria: "Historia Polski",
+    odpowiedź: "1000"
+  }
 ]
 
 export const final: Pytanie[] = [
@@ -597,5 +1872,125 @@ export const final: Pytanie[] = [
   { pytanie: "W którym europejskim państwie w XVI wieku narodził się ludowy, improwizowany typ widowiska teatralnego zwany commedia dell'arte?", kategoria: "Sztuka/Teatr", odpowiedź: "We Włoszech" },
   { pytanie: "Jak w fizyce i optyce nazywamy wielobarwny obraz powstały po rozszczepieniu światła białego przez pryzmat?", kategoria: "Fizyka", odpowiedź: "Widmo (lub spektrum)" },
   { pytanie: "Jak w mitologii skandynawskiej nazywały się ujeżdżające wilki dziewice, służki Odyna, sprowadzające poległych wojowników do Walhalli?", kategoria: "Mitologia", odpowiedź: "Walkirie" },
-  { pytanie: "Czy genialny kompozytor Wolfgang Amadeusz Mozart żył i tworzył w czasach panowania austriackiej cesarzowej Marii Teresy?", kategoria: "Muzyka/Historia", odpowiedź: "Tak" }
+  { pytanie: "Czy genialny kompozytor Wolfgang Amadeusz Mozart żył i tworzył w czasach panowania austriackiej cesarzowej Marii Teresy?", kategoria: "Muzyka/Historia", odpowiedź: "Tak" },
+  {
+    pytanie: "Jakie imię nosi archanioł opisany w Księdze Daniela jako anioł opiekun narodu izraelskiego?",
+    kategoria: "Religia",
+    odpowiedź: "Michał"
+  },
+  {
+    pytanie: "Ile złotych medali zdobyli do tej pory Polacy na zimowych igrzyskach olimpijskich?",
+    kategoria: "Sport",
+    odpowiedź: "7: Fortuna, Kowalczyk x2, Stoch x3, Bródka"
+  },
+  {
+    pytanie: "1,2,3 która z tych liczb nie jest liczbą pierwszą?",
+    kategoria: "Matematyka",
+    odpowiedź: "wszystkie są"
+  },
+  {
+    pytanie: "Czy w skład chóru rewelersów wchodzą kobiety?",
+    kategoria: "Muzyka",
+    odpowiedź: "nie, jest to wokalny kwartet męski"
+  },
+  {
+    pytanie: "Czy w medycynie znana jest witamina H?",
+    kategoria: "Medycyna i Biologia",
+    odpowiedź: "to inaczej B7"
+  },
+  {
+    pytanie: "W dziecięcej wyliczance kipi kasz kipi groch co wynika dalej, co jest lepsze- kasza czy groch?",
+    kategoria: "Literatura dziecięca",
+    odpowiedź: "kasza"
+  },
+  {
+    pytanie: "Wzgórze w Paryżu na którym wybudowano bazylikę Sacré-Cœur, jak brzmi jego nazwa?",
+    kategoria: "Geografia i Architektura",
+    odpowiedź: "Montmartre"
+  },
+  {
+    pytanie: "Za zdjęcia do którego filmu Stevena Spielberga polski operator Janusz Kamiński dostał nominację do Oscara?",
+    kategoria: "Film",
+    odpowiedź: "Lincoln"
+  },
+  {
+    pytanie: "Ile galaktyk nosi nazwę obłoku Magellana?",
+    kategoria: "Astronomia",
+    odpowiedź: "dwie"
+  },
+  {
+    pytanie: "W którym wieku tańczył międzynarodowy zespół Siergieja Diagilewa noszący nazwę Baletów Rosyjskich?",
+    kategoria: "Teatr i Taniec",
+    odpowiedź: "w pierwszej połowie wieku XX"
+  },
+  {
+    pytanie: "Francuski fizjolog Albert Calmette opracował szczepionkę przeciwko któremu drobnoustrojowi?",
+    kategoria: "Medycyna / Biologia",
+    odpowiedź: "przeciwko gruźlicy"
+  },
+  {
+    pytanie: "Na których wyspach wg Jana Brzechwy widziano osła którego mrówka niosła?",
+    kategoria: "Literatura dziecięca",
+    odpowiedź: "wyspy Bergamuty"
+  },
+  {
+    pytanie: "Który artysta renesansu jest autorem obrazu Św. Anna samotrzecia?",
+    kategoria: "Sztuka",
+    odpowiedź: "Leonardo da Vinci"
+  },
+  {
+    pytanie: "Floty których państw starły się ze sobą podczas słynnej bitwy pod Cuszimą w 1905 roku?",
+    kategoria: "Historia / Militaria",
+    odpowiedź: "Rosji i Japonii"
+  },
+  {
+    pytanie: "Ile trąb (i dni okrążeń) wg Biblii zburzyło mury Jerycha?",
+    kategoria: "Religia",
+    odpowiedź: "siedem trąb"
+  },
+  {
+    pytanie: "Który Polak jako pierwszy opłynął samotnie Ziemię bez zawijania do portów?",
+    kategoria: "Żeglarstwo / Historia",
+    odpowiedź: "Henryk Jaskuła"
+  },
+  {
+    pytanie: "W jakim tradycyjnym składzie osobowym tańczony jest trojak śląski?",
+    kategoria: "Folklor i Taniec",
+    odpowiedź: "dwie partnerki i jeden partner"
+  },
+  {
+    pytanie: "Jak nazywa się cieśnina łącząca kanał La Manche z Morzem Północnym?",
+    kategoria: "Geografia",
+    odpowiedź: "Cieśnina Kaletańska"
+  },
+  {
+    pytanie: "Ile lwów znajduje się w oficjalnym godle państwowym Danii?",
+    kategoria: "Heraldyka",
+    odpowiedź: "trzy lwy"
+  },
+  {
+    pytanie: "Jakie wspólne nazwisko nosili bracia Józef i Kazimierz, słynni polscy zapaśnicy olimpijscy?",
+    kategoria: "Sport",
+    odpowiedź: "Lipieniowie"
+  },
+  {
+    pytanie: "Za jaki dokładnie utwór Tomasz Mann otrzymał literacką Nagrodę Nobla?",
+    kategoria: "Literatura",
+    odpowiedź: "Buddenbrookowie"
+  },
+  {
+    pytanie: "Jak nazywa się słynny thriller erotyczny z 1992 roku, w którym główne role zagrali Michael Douglas i Sharon Stone?",
+    kategoria: "Film",
+    odpowiedź: "Nagi instynkt"
+  },
+  {
+    pytanie: "Jak nazywa się największy oficjalny port morski śródlądowej Szwajcarii?",
+    kategoria: "Geografia / Ciekawostki",
+    odpowiedź: "Szwajcaria nie ma dostępu do morza, więc nie ma portu morskiego"
+  },
+  {
+    pytanie: "Kim z zawodu i głównej działalności naukowej był Tadeusz Kotarbiński?",
+    kategoria: "Nauka",
+    odpowiedź: "filozofem"
+  }
 ];

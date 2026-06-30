@@ -1,45 +1,45 @@
 "use client"
-import { useState, useEffect,useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
-import {etapI,etapII,final} from "../pytania"
+import { etapI, etapII, final } from "../../../pytania"
 
 
 function PanelGracza() {
     const [zycie, setZycie] = useState(3);
-    const [stanGry,setStanGry] = useState<{etap:string,index:number} | null>(null);
-    const [zegar,setZegar] = useState(0);
+    const [stanGry, setStanGry] = useState<{ etap: string, index: number } | null>(null);
+    const [zegar, setZegar] = useState(0);
 
 
     useEffect(() => {
         const pobierzStanGry = async () => {
-           try{
-             const res = await fetch("/api/stanGry");
-            const data = await res.json();
-            if(data.index !== -1) {
-                setStanGry(data);
+            try {
+                const res = await fetch("/api/stanGry");
+                const data = await res.json();
+                if (data.index !== -1) {
+                    setStanGry(data);
+                }
+            } catch (error) {
+                console.error("Błąd pobierania stanu gry:", error);
             }
-           }catch(error){
-            console.error("Błąd pobierania stanu gry:",error);
-           }
         }
         pobierzStanGry();
-        
+
 
         const interval = setInterval(pobierzStanGry, 1000);
         return () => clearInterval(interval);
     }, []);
 
-        
-        
+
+
     const pobierzPytanie = () => {
-        if(!stanGry) return null;
-        if(stanGry.etap === "Etap I") {
+        if (!stanGry) return null;
+        if (stanGry.etap === "Etap I") {
             return etapI[stanGry.index];
         }
-        else if(stanGry.etap === "Etap II") {
+        else if (stanGry.etap === "Etap II") {
             return etapII[stanGry.index];
         }
-        else if(stanGry.etap === "Finał") {
+        else if (stanGry.etap === "Finał") {
             return final[stanGry.index];
         }
         return null;
@@ -48,10 +48,10 @@ function PanelGracza() {
     const aktualnePytanie = pobierzPytanie();
 
     const zabierzŻycie = () => {
-        if(zycie > 0) {
+        if (zycie > 0) {
             const noweZycie = zycie - 1;
             setZycie(noweZycie);
-            if(noweZycie === 0) {
+            if (noweZycie === 0) {
                 setTimeout(() => {
                     alert("Przegrałeś!");
                 }, 180);
